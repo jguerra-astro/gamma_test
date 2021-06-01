@@ -50,7 +50,7 @@ fig,ax     = plt.subplots(figsize=(25,10),ncols=2)
 # ax[0].plot(r,rho_cusp,lw=3+1)
 # ax[0].plot(r,rho_core,lw=4+1,color='black')
 # ax[0].plot(r,rho_core,lw=3+1)
-ax[0].set(xscale='log',yscale='log',xlabel='R [kpc]',ylabel='$\rho_d$')
+ax[0].set(xscale='log',yscale='log',xlabel='R [kpc]',ylabel=r'$\rho_d$')
 r_s = np.logspace(-1.5,.3,15)
 for i in r_s:
     theta = (np.log(3e8),np.log(i),0,1.5,3,0)
