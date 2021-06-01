@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-from numba import njit
 import astropy.units as u
 import matplotlib
 matplotlib.rcParams.update({'font.size': 30})
